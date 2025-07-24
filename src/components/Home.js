@@ -5,7 +5,7 @@ import Feed from "./Feed";
 
 const Home = () => {
   return (
-    <div>
+    <div className="Home flex justify-between max-w-7xl w-[90%] mx-auto">
       <LeftSidebar />
       <Feed />
       <RightSideBar />
