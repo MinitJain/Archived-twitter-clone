@@ -8,7 +8,7 @@ import { FiLogOut } from "react-icons/fi";
 
 const LeftSidebar = () => {
   return (
-    <div>
+    <div className="w-[20%] ">
       <div>
         <div>
           <img width={"80px"} src="/logo.png" alt="Logo" className="logo" />
