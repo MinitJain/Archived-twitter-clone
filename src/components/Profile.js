@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Profile = () => {
   return (
-    <div className="w-[50%]">
+    <div className="w-[50%] border-l border-r border-gray-200">
       <div>
         <div className="flex items-center  my-4">
           <Link
@@ -29,9 +29,19 @@ const Profile = () => {
             <Avatar name="Wim Mostmans" size="100" round={true} />
           </div>
           <div className="absolute top-52 right-2">
-            <button className="px-4 py-1.5 text-white font-semibold bg-black rounded-full hover:bg-gray-900">
+            <button className="px-4 py-1.5 font-semibold border-2 border-gray-400 rounded-full hover:bg-zinc-200">
               Edit Profile
             </button>
+          </div>
+          <div className="mt-16 px-4">
+            <h1 className="text-xl font-bold">Alex</h1>
+            <p className="text-gray-500">@AlexMERNstack</p>
+            <div className="mt-4">
+              <p className="text-gray-800 text-sm">
+                🌐Full Stack Developer | MERN Stack Enthusiast | DSA IN C++ |
+                SQL | Open Source Contribution
+              </p>
+            </div>
           </div>
         </div>
       </div>
