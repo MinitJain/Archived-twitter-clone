@@ -25,7 +25,7 @@ const CreatePost = () => {
           </div>
           <div className="flex p-4 justify-between items-center border-b border-gray-300">
             <div>
-              <CiImageOn size={"26px"} />
+              <CiImageOn size={"24px"} />
             </div>
             <button className="px-4 py-2 font-bold border-none text-lg bg-[#1D9BF0] text-white rounded-full  mt-4 hover:bg-[#1A8CD8]">
               Post
