@@ -1,8 +1,6 @@
 import React from "react";
 import Avatar from "react-avatar";
-import { FaRegComment } from "react-icons/fa6";
-import { FcLike } from "react-icons/fc";
-import { CiBookmark } from "react-icons/ci";
+import { RiChat1Line, RiHeart3Line, RiBookmarkLine } from "react-icons/ri";
 
 const Tweet = () => {
   return (
@@ -24,8 +22,8 @@ const Tweet = () => {
             <div className="flex justify-between mt-2">
               <div className="flex items-center group">
                 <div className="rounded-full cursor-pointer p-2 transition-all hover:bg-blue-100 active:scale-95">
-                  <FaRegComment
-                    size={"18px"}
+                  <RiChat1Line
+                    size={20}
                     className="group-hover:text-blue-500 group-hover:scale-110"
                   />
                 </div>
@@ -33,14 +31,17 @@ const Tweet = () => {
               </div>
               <div className="flex items-center group">
                 <div className="cursor-pointer p-2 rounded-full transition-all hover:bg-red-100 active:scale-95">
-                  <FcLike size={"20px"} className="group-hover:scale-110" />
+                  <RiHeart3Line
+                    size={20}
+                    className="group-hover:scale-110 group-hover:text-red-500"
+                  />
                 </div>
                 <p className="text-sm ml-1 group-hover:text-red-500">12</p>
               </div>
               <div className="flex items-center group">
                 <div className="rounded-full cursor-pointer p-2 transition-all hover:bg-green-100 active:scale-95">
-                  <CiBookmark
-                    size={"20px"}
+                  <RiBookmarkLine
+                    size={20}
                     className="group-hover:text-green-500 group-hover:scale-110"
                   />
                 </div>
