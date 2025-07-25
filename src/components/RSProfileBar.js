@@ -14,7 +14,7 @@ const RSProfileBar = () => {
               <p className="text-sm text-gray-500">@Steffanimernsteck</p>
             </div>
           </div>
-          <button className="bg-black min-w-[80px] px-4 py-1.5 text-white text-sm font-semibold rounded-full hover:bg-gray-900">
+          <button className="bg-black min-w-[80px] px-4 py-1.5 text-white text-sm font-semibold rounded-full hover:bg-gray-900 active:bg-gray-800 transition-all duration-200 active:scale-95 hover:shadow-md">
             Profile
           </button>
         </div>
