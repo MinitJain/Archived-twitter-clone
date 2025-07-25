@@ -5,6 +5,7 @@ import { IoNotifications } from "react-icons/io5";
 import { FaUser } from "react-icons/fa";
 import { IoBookmarks } from "react-icons/io5";
 import { FiLogOut } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const LeftSidebar = () => {
   return (
@@ -14,10 +15,13 @@ const LeftSidebar = () => {
           <img width={"80px"} src="/logo.png" alt="Logo" className="logo" />
         </div>
         <div className="my-4">
-          <div className="SideBar flex items-center my-2 hover:bg-gray-200 p-2 rounded-lg cursor-pointer">
+          <Link
+            to="/"
+            className="SideBar flex items-center my-2 hover:bg-gray-200 p-2 rounded-lg cursor-pointer"
+          >
             <IoHome size={"24px"} />
             <div className="font-semibold text-lg ml-2">Home</div>
-          </div>
+          </Link>
           <div className="SideBar flex items-center my-2 hover:bg-gray-200 p-2 rounded-lg cursor-pointer">
             <FaHashtag size={"24px"} />
             <div className="font-semibold text-lg ml-2">Explore</div>
@@ -26,10 +30,13 @@ const LeftSidebar = () => {
             <IoNotifications size={"24px"} />
             <div className="font-semibold text-lg ml-2">Notification</div>
           </div>
-          <div className="SideBar flex items-center my-2 hover:bg-gray-200 p-2 rounded-lg cursor-pointer">
+          <Link
+            to="/profile"
+            className="SideBar flex items-center my-2 hover:bg-gray-200 p-2 rounded-lg cursor-pointer"
+          >
             <FaUser size={"24px"} />
             <div className="font-semibold text-lg ml-2">Profile</div>
-          </div>
+          </Link>
           <div className="SideBar flex items-center my-2 hover:bg-gray-200 p-2 rounded-lg cursor-pointer">
             <IoBookmarks size={"24px"} />
             <div className="font-semibold text-lg ml-2">Bookmarks</div>
