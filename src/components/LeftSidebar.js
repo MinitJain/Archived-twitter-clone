@@ -16,7 +16,7 @@ const LeftSidebar = () => {
         <div>
           <img
             width={"100px"}
-            src="/EchoLogo.png"
+            src="/NodesLogoForEcho.png"
             alt="Logo"
             className="logo"
           />
