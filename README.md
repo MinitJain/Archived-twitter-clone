@@ -1,3 +1,3 @@
-ChirpX – A Real-time Microblogging Platform.
+Echo – A Real-time Microblogging Platform.
 
 In progress ⌛⏳

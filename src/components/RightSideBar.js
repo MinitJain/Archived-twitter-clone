@@ -9,7 +9,7 @@ const RightSideBar = () => {
         <CiSearch size={20} className="text-gray-600" />
         <input
           type="text"
-          placeholder="Search ChirpX"
+          placeholder="Search Echo"
           className="bg-transparent outline-none px-2"
         />
       </div>
