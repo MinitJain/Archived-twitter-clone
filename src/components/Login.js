@@ -21,26 +21,31 @@ const Login = () => {
             <input
               type="text"
               placeholder="Name"
-              className="  outline-blue-500 border border-gray-300 p-2 rounded-md font-medium"
+              className="  outline-slate-500 border border-gray-300 p-2 rounded-md font-medium"
             />
             <input
               type="text"
               placeholder="Username"
-              className=" outline-blue-500 border border-gray-300 p-2 rounded-md font-medium"
+              className=" outline-slate-500 border border-gray-300 p-2 rounded-md font-medium"
             />
             <input
               type="text"
               placeholder="Email"
-              className=" outline-blue-500 border border-gray-300 p-2 rounded-md font-medium"
+              className=" outline-slate-500 border border-gray-300 p-2 rounded-md font-medium"
             />
             <input
               type="text"
               placeholder="Password"
-              className=" outline-blue-500 border border-gray-300 p-2 rounded-md font-medium"
+              className=" outline-slate-500 border border-gray-300 p-2 rounded-md font-medium"
             />
             <button className=" bg-slate-900 text-white p-2 rounded-md font-semibold hover:bg-slate-700 transition duration-300">
               Login
             </button>
+
+            <h1>
+              {" "}
+              Already have an account? <span>Login</span>{" "}
+            </h1>
           </form>
         </div>
       </div>
