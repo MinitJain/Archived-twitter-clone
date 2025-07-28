@@ -39,7 +39,8 @@ const Profile = () => {
             <div className="mt-4">
               <p className="text-gray-800 text-sm">
                 🌐Full Stack Developer | MERN Stack Enthusiast | DSA IN C++ |
-                SQL | Open Source Contribution
+                SQL | Open Source Contributer | Tech Blogger | Passionate about
+                building scalable web applications
               </p>
             </div>
           </div>
